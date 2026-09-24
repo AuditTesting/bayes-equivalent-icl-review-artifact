@@ -1,0 +1,5 @@
+Anonymous review-only availability
+
+This package contains analysis reconstruction code and frozen numerical evidence prepared for peer review. No general open-source license or broader redistribution permission is granted by this notice. Project-code licensing has not been finalized. Access permits inspection and execution for review; other uses remain subject to applicable rights and separate permission.
+
+The external pretrained-model study is referenced through the official repository and release URLs in protocols/table2.json. This package does not redistribute its model weights or third-party source code. Third-party citations and provenance identify external work, not the authors of this submission.

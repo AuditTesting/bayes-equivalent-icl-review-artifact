@@ -1,0 +1,8 @@
+name: anonymous-review-core
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy==1.22.3
