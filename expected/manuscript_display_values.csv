@@ -1,0 +1,151 @@
+manuscript_item,metric,context,displayed_value,full_precision_value
+Figure 2,M,mlp; checkpoint=5000; layer=gelu1_post,graphical/supplemental value; full precision supplied,0.9550982616303163
+Figure 2,M,mlp; checkpoint=5000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.9629034511607278
+Figure 2,P,mlp; checkpoint=5000,graphical/supplemental value; full precision supplied,0.08887136670897193
+Figure 2,A,mlp; checkpoint=5000,graphical/supplemental value; full precision supplied,1.0081721324851836
+Figure 2,M,mlp; checkpoint=10000; layer=gelu1_post,graphical/supplemental value; full precision supplied,0.976626566197645
+Figure 2,M,mlp; checkpoint=10000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.9281746316355004
+Figure 2,P,mlp; checkpoint=10000,graphical/supplemental value; full precision supplied,0.07336098512721455
+Figure 2,A,mlp; checkpoint=10000,graphical/supplemental value; full precision supplied,0.9503884737123369
+Figure 2,M,mlp; checkpoint=20000; layer=gelu1_post,graphical/supplemental value; full precision supplied,0.9799021537413548
+Figure 2,M,mlp; checkpoint=20000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.8505364817772223
+Figure 2,P,mlp; checkpoint=20000,graphical/supplemental value; full precision supplied,0.06189797571082336
+Figure 2,A,mlp; checkpoint=20000,graphical/supplemental value; full precision supplied,0.867981031095602
+Figure 2,M,mlp; checkpoint=50000; layer=gelu1_post,graphical/supplemental value; full precision supplied,0.9828188469938691
+Figure 2,M,mlp; checkpoint=50000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.5913844663413321
+Figure 2,P,mlp; checkpoint=50000,graphical/supplemental value; full precision supplied,0.05061155262487953
+Figure 2,A,mlp; checkpoint=50000,graphical/supplemental value; full precision supplied,0.6017227570983091
+Figure 2,M,mlp; checkpoint=100000; layer=gelu1_post,graphical/supplemental value; full precision supplied,0.9924965449721439
+Figure 2,M,mlp; checkpoint=100000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.4072377349199126
+Figure 2,P,mlp; checkpoint=100000,graphical/supplemental value; full precision supplied,0.045202595614559624
+Figure 2,A,mlp; checkpoint=100000,graphical/supplemental value; full precision supplied,0.4103165265238706
+Figure 2,M,mlp; checkpoint=200000; layer=gelu1_post,graphical/supplemental value; full precision supplied,1.001372576171533
+Figure 2,M,mlp; checkpoint=200000; layer=gelu2_post,graphical/supplemental value; full precision supplied,0.29939539767817563
+Figure 2,P,mlp; checkpoint=200000,graphical/supplemental value; full precision supplied,0.03546266988886955
+Figure 2,A,mlp; checkpoint=200000,"0.2990 [0.2818, 0.3158]",0.29898501796686894
+Figure 2,seed_A200k,mlp; seed=701; checkpoint=200000,graphical/supplemental value; full precision supplied,0.2731417328463971
+Figure 2,seed_A200k,mlp; seed=702; checkpoint=200000,graphical/supplemental value; full precision supplied,0.31989822533237783
+Figure 2,seed_A200k,mlp; seed=703; checkpoint=200000,graphical/supplemental value; full precision supplied,0.28307706502003277
+Figure 2,seed_A200k,mlp; seed=704; checkpoint=200000,graphical/supplemental value; full precision supplied,0.29734913373631594
+Figure 2,seed_A200k,mlp; seed=705; checkpoint=200000,graphical/supplemental value; full precision supplied,0.3215575494066825
+Figure 2,T_A,mlp; checkpoint=200000/5000,"0.2966 [0.2761, 0.3178]",0.2965614782763924
+Figure 2,R_P,mlp; checkpoint=200000/5000,"0.3990 [0.3672, 0.4334]",0.39903369557710927
+Figure 2,M,transformer; checkpoint=5000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8096277168883315
+Figure 2,M,transformer; checkpoint=5000; layer=block1_return,graphical/supplemental value; full precision supplied,0.5542387202105029
+Figure 2,M,transformer; checkpoint=5000; layer=block2_return,graphical/supplemental value; full precision supplied,0.4381027928160436
+Figure 2,M,transformer; checkpoint=5000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.44944177719229705
+Figure 2,P,transformer; checkpoint=5000,graphical/supplemental value; full precision supplied,0.0885752991146652
+Figure 2,A,transformer; checkpoint=5000,graphical/supplemental value; full precision supplied,0.810917319204253
+Figure 2,M,transformer; checkpoint=10000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8237683837679409
+Figure 2,M,transformer; checkpoint=10000; layer=block1_return,graphical/supplemental value; full precision supplied,0.5387753866863167
+Figure 2,M,transformer; checkpoint=10000; layer=block2_return,graphical/supplemental value; full precision supplied,0.41334991612797956
+Figure 2,M,transformer; checkpoint=10000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.42113894342041236
+Figure 2,P,transformer; checkpoint=10000,graphical/supplemental value; full precision supplied,0.07996818916703734
+Figure 2,A,transformer; checkpoint=10000,graphical/supplemental value; full precision supplied,0.7816595817611206
+Figure 2,M,transformer; checkpoint=20000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8329513290256818
+Figure 2,M,transformer; checkpoint=20000; layer=block1_return,graphical/supplemental value; full precision supplied,0.5344424581488124
+Figure 2,M,transformer; checkpoint=20000; layer=block2_return,graphical/supplemental value; full precision supplied,0.3940293270757041
+Figure 2,M,transformer; checkpoint=20000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.3956137957716293
+Figure 2,P,transformer; checkpoint=20000,graphical/supplemental value; full precision supplied,0.07467907991380099
+Figure 2,A,transformer; checkpoint=20000,graphical/supplemental value; full precision supplied,0.740236464636335
+Figure 2,M,transformer; checkpoint=50000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8359790835906249
+Figure 2,M,transformer; checkpoint=50000; layer=block1_return,graphical/supplemental value; full precision supplied,0.5449528594926378
+Figure 2,M,transformer; checkpoint=50000; layer=block2_return,graphical/supplemental value; full precision supplied,0.3720016856356426
+Figure 2,M,transformer; checkpoint=50000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.32815991208051043
+Figure 2,P,transformer; checkpoint=50000,graphical/supplemental value; full precision supplied,0.05707779996943604
+Figure 2,A,transformer; checkpoint=50000,graphical/supplemental value; full precision supplied,0.6021803654467177
+Figure 2,M,transformer; checkpoint=100000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8327368818351534
+Figure 2,M,transformer; checkpoint=100000; layer=block1_return,graphical/supplemental value; full precision supplied,0.5677804056646772
+Figure 2,M,transformer; checkpoint=100000; layer=block2_return,graphical/supplemental value; full precision supplied,0.3661719251863652
+Figure 2,M,transformer; checkpoint=100000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.27678092896290646
+Figure 2,P,transformer; checkpoint=100000,graphical/supplemental value; full precision supplied,0.04695124030809651
+Figure 2,A,transformer; checkpoint=100000,graphical/supplemental value; full precision supplied,0.48747883195949737
+Figure 2,M,transformer; checkpoint=200000; layer=projected_query,graphical/supplemental value; full precision supplied,0.8292531405479115
+Figure 2,M,transformer; checkpoint=200000; layer=block1_return,graphical/supplemental value; full precision supplied,0.6024907242568712
+Figure 2,M,transformer; checkpoint=200000; layer=block2_return,graphical/supplemental value; full precision supplied,0.37382408093793024
+Figure 2,M,transformer; checkpoint=200000; layer=final_layernorm,graphical/supplemental value; full precision supplied,0.24839667514287694
+Figure 2,P,transformer; checkpoint=200000,graphical/supplemental value; full precision supplied,0.03560615179738937
+Figure 2,A,transformer; checkpoint=200000,"0.4123 [0.3639, 0.4503]",0.4122829865127904
+Figure 2,seed_A200k,transformer; seed=801; checkpoint=200000,graphical/supplemental value; full precision supplied,0.3968545791125601
+Figure 2,seed_A200k,transformer; seed=802; checkpoint=200000,graphical/supplemental value; full precision supplied,0.4506635213682417
+Figure 2,seed_A200k,transformer; seed=803; checkpoint=200000,graphical/supplemental value; full precision supplied,0.45439701527580756
+Figure 2,seed_A200k,transformer; seed=804; checkpoint=200000,graphical/supplemental value; full precision supplied,0.31936608269712363
+Figure 2,seed_A200k,transformer; seed=805; checkpoint=200000,graphical/supplemental value; full precision supplied,0.43833677827425743
+Figure 2,T_A,transformer; checkpoint=200000/5000,"0.5084 [0.4674, 0.5367]",0.5084155643849863
+Figure 2,R_P,transformer; checkpoint=200000/5000,"0.4020 [0.3334, 0.4629]",0.4019873729276986
+Figure 3,BETA_POS,cohort at 200000 updates,graphical/supplemental value; full precision supplied,0.9491112561300863
+Figure 3,N0_ABS,cohort at 200000 updates,"0.04894 [0.04485, 0.05299]",0.04894466337261836
+Figure 3,K,cohort at 200000 updates,graphical/supplemental value; full precision supplied,0.0019167165628474747
+Figure 3,BETA_POS,cohort at 400000 updates,graphical/supplemental value; full precision supplied,0.9644852582319728
+Figure 3,N0_ABS,cohort at 400000 updates,"0.04201 [0.03955, 0.04444]",0.04201035369107161
+Figure 3,K,cohort at 400000 updates,graphical/supplemental value; full precision supplied,0.0014127586164957098
+Figure 3,BETA_POS,cohort at 800000 updates,graphical/supplemental value; full precision supplied,0.9672263642195337
+Figure 3,N0_ABS,cohort at 800000 updates,"0.03812 [0.03441, 0.04176]",0.038118945511110454
+Figure 3,K,cohort at 800000 updates,graphical/supplemental value; full precision supplied,0.0010615002295340677
+Figure 3,R_N_200_400,paired 200000 to 400000 updates,graphical/supplemental value; full precision supplied,0.8583234779090118
+Figure 3,R_N_400_800,paired 400000 to 800000 updates,graphical/supplemental value; full precision supplied,0.907370259041923
+Figure 3,R_N_200_800,paired 200000 to 800000 updates,graphical/supplemental value; full precision supplied,0.7788171964920643
+Figure 3,Delta_N_200_400,paired 200000 to 400000 updates,graphical/supplemental value; full precision supplied,-0.006934309681546749
+Figure 3,Delta_N_400_800,paired 400000 to 800000 updates,"-0.00389 [-0.00690, -0.00092]",-0.003891408179961156
+Figure 3,Delta_B_200_400,paired 200000 to 400000 updates,graphical/supplemental value; full precision supplied,0.015374002101886552
+Figure 3,Delta_B_400_800,paired 400000 to 800000 updates,graphical/supplemental value; full precision supplied,0.0027411059875608323
+Figure 3,Delta_K_200_400,paired 200000 to 400000 updates,graphical/supplemental value; full precision supplied,-0.0005039579463517649
+Figure 3,Delta_K_400_800,paired 400000 to 800000 updates,graphical/supplemental value; full precision supplied,-0.0003512583869616421
+Figure 3,N0_ABS_reduction_percent,200000 to 800000 updates,22.1%,22.118280350793572
+Figure 3,N0_ABS_benchmark_multiple,800000 updates divided by epsilon0,3.81,3.8118945511110454
+Figure 4,E_WITHIN,A,graphical/supplemental value; full precision supplied,2.651547497677414e-05
+Figure 4,E_PAIR,A,graphical/supplemental value; full precision supplied,0.0005224646534125021
+Figure 4,E_SHARED,A,graphical/supplemental value; full precision supplied,0.0004959491784357262
+Figure 4,F_WITHIN,A,graphical/supplemental value; full precision supplied,0.050750753765995624
+Figure 4,K,A,graphical/supplemental value; full precision supplied,0.0010427076230034129
+Figure 4,N0_ABS,A,graphical/supplemental value; full precision supplied,0.03611433999082786
+Figure 4,BETA_POS,A,graphical/supplemental value; full precision supplied,0.9894179930224787
+Figure 4,E_WITHIN,C,graphical/supplemental value; full precision supplied,6.873303903797649e-06
+Figure 4,E_PAIR,C,graphical/supplemental value; full precision supplied,8.346858620502111e-05
+Figure 4,E_SHARED,C,graphical/supplemental value; full precision supplied,7.65952823012235e-05
+Figure 4,F_WITHIN,C,graphical/supplemental value; full precision supplied,0.08234599645566035
+Figure 4,K,C,graphical/supplemental value; full precision supplied,9.678121826936936e-05
+Figure 4,N0_ABS,C,graphical/supplemental value; full precision supplied,0.016440353987199383
+Figure 4,BETA_POS,C,graphical/supplemental value; full precision supplied,0.9972437674938085
+Figure 4,E_WITHIN,D,graphical/supplemental value; full precision supplied,1.0508880675499715e-06
+Figure 4,E_PAIR,D,graphical/supplemental value; full precision supplied,0.000436249096795217
+Figure 4,E_SHARED,D,graphical/supplemental value; full precision supplied,0.00043519820872766566
+Figure 4,F_WITHIN,D,graphical/supplemental value; full precision supplied,0.002408917463142111
+Figure 4,K,D,graphical/supplemental value; full precision supplied,0.0011238644677594096
+Figure 4,N0_ABS,D,graphical/supplemental value; full precision supplied,0.005945446618861908
+Figure 4,BETA_POS,D,1.068,1.0681216021980329
+Figure 4,E_WITHIN,E,1.40e-7,1.402862866229818e-07
+Figure 4,E_PAIR,E,graphical/supplemental value; full precision supplied,9.718286198778359e-05
+Figure 4,E_SHARED,E,graphical/supplemental value; full precision supplied,9.704257570116072e-05
+Figure 4,F_WITHIN,E,graphical/supplemental value; full precision supplied,0.0014435290724471206
+Figure 4,K,E,graphical/supplemental value; full precision supplied,0.0002258366618430631
+Figure 4,N0_ABS,E,graphical/supplemental value; full precision supplied,0.002268019441790579
+Figure 4,BETA_POS,E,1.035,1.0350833417741478
+Figure 4,E_WITHIN,D-A,graphical/supplemental value; full precision supplied,-2.5464586909224168e-05
+Figure 4,K,D-A,graphical/supplemental value; full precision supplied,8.115684475599669e-05
+Figure 4,E_WITHIN,E-C,"-6.733e-6 [-7.568e-6, -5.946e-6]",-6.733017617174667e-06
+Figure 4,K,E-C,"1.291e-4 [1.148e-4, 1.453e-4]",0.00012905544357369377
+Table 1,E_WITHIN_COMP,Z D-A,"-0.74 [-2.09, 0.48] x 1e-6",-7.36185754060277e-07
+Table 1,E_WITHIN_COMP,Z C-A,"-15.57 [-17.70, -13.58] x 1e-6",-1.5570422039304083e-05
+Table 1,E_WITHIN_COMP,P D-A,"-0.57 [-1.98, 0.65] x 1e-6",-5.672834754784761e-07
+Table 1,E_WITHIN_COMP,P C-A,"-16.29 [-18.60, -14.08] x 1e-6",-1.6290843208366535e-05
+Table 2,R_APPROX,n=10,"0.0394 [0.0373, 0.0416]",0.03942338039700633
+Table 2,E_PAIR,n=10,Supplement: full precision in artifact,0.039395488527366136
+Table 2,E_SHARED,n=10,Supplement: full precision in artifact,0.03794512358097015
+Table 2,E_WITHIN,n=10,Supplement: full precision in artifact,0.0014503649463960073
+Table 2,F_WITHIN,n=10,"3.68% [3.38%, 4.02%]",0.036815508592779836
+Table 2,ABS_DELTA,n=10,Supplement: full precision in artifact,0.05464698555806535
+Table 2,RMS_DELTA,n=10,"0.0762 [0.0735, 0.0790]",0.07616731441756384
+Table 2,task_MSE,n=10,9.79,9.786291542342559
+Table 2,minimum_norm_task_MSE,n=10,9.74,9.742655999543267
+Table 2,mean_posterior_variance,n=10,10.03,10.025268503905156
+Table 2,R_APPROX,n=15,"0.0533 [0.0480, 0.0611]",0.05326006501788736
+Table 2,E_PAIR,n=15,Supplement: full precision in artifact,0.0537914484967306
+Table 2,E_SHARED,n=15,Supplement: full precision in artifact,0.05228973918020635
+Table 2,E_WITHIN,n=15,Supplement: full precision in artifact,0.0015017093165242152
+Table 2,F_WITHIN,n=15,"2.79% [2.38%, 3.20%]",0.02791725001819737
+Table 2,ABS_DELTA,n=15,Supplement: full precision in artifact,0.05599248689804881
+Table 2,RMS_DELTA,n=15,"0.0775 [0.0746, 0.0811]",0.07750378872091906
+Table 2,task_MSE,n=15,5.08,5.080262159954815
+Table 2,minimum_norm_task_MSE,n=15,5.02,5.02249603978752
+Table 2,mean_posterior_variance,n=15,5.01,5.012609382830302
