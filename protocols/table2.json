@@ -1,0 +1,27 @@
+{
+  "study": "S24 external fixed-checkpoint episode audit",
+  "source_repository": "https://github.com/dtsip/in-context-learning",
+  "release_url": "https://github.com/dtsip/in-context-learning/releases/download/initial/models.zip",
+  "commit": "338337192195827c58356f9b627e5f999ea703d2",
+  "checkpoint_sha256": "7fe030f1d3dd631a2b92848e32d8e4f924c1a56ebf0650806415758051bab3c7",
+  "config_sha256": "d795f769790c816b6de7b66a5b2b45e4fe5c5010c5fcaa91bf94f552d7beaa2a",
+  "checkpoint_included": false,
+  "source_code_included": false,
+  "dimension": 20,
+  "contexts": [
+    10,
+    15
+  ],
+  "episodes_per_context": 4096,
+  "draws": 2000,
+  "sampling_unit": "paired base episode",
+  "strata": "selected demonstration position;fixed counts",
+  "uncertainty": "conditional on one fixed checkpoint;no training-seed uncertainty",
+  "percentile": "numpy linear quantile .025/.975",
+  "model_evaluation_provenance": "official unmodified model,CPU float32,eval,no_grad,query y placeholder0,final output[:,n]",
+  "row_rule": "zero-based episode id modulo n",
+  "oracle": "visible float32 X,y promoted to float64;SVD pseudoinverse;scale1;no ridge or jitter;no latent-w reconstruction",
+  "tolerance": 1e-10,
+  "saved_index_reconstruction": true,
+  "new_resampling": false
+}

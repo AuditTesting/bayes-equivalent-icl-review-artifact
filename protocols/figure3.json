@@ -1,0 +1,116 @@
+{
+  "study": "Relevance-controlled extended training; post-confirmatory descriptive uncertainty",
+  "seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012
+  ],
+  "times": [
+    200000,
+    400000,
+    800000
+  ],
+  "metric_order": [
+    "BETA_POS",
+    "N0_ABS",
+    "K"
+  ],
+  "summaries": [
+    {
+      "aggregation": "later cohort mean / earlier cohort mean",
+      "earlier": 200000,
+      "later": 400000,
+      "metric": "N0_ABS",
+      "name": "R_N_200_400",
+      "operation": "ratio"
+    },
+    {
+      "aggregation": "later cohort mean / earlier cohort mean",
+      "earlier": 400000,
+      "later": 800000,
+      "metric": "N0_ABS",
+      "name": "R_N_400_800",
+      "operation": "ratio"
+    },
+    {
+      "aggregation": "later cohort mean / earlier cohort mean",
+      "earlier": 200000,
+      "later": 800000,
+      "metric": "N0_ABS",
+      "name": "R_N_200_800",
+      "operation": "ratio"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 200000,
+      "later": 400000,
+      "metric": "N0_ABS",
+      "name": "Delta_N_200_400",
+      "operation": "difference"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 400000,
+      "later": 800000,
+      "metric": "N0_ABS",
+      "name": "Delta_N_400_800",
+      "operation": "difference"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 200000,
+      "later": 400000,
+      "metric": "BETA_POS",
+      "name": "Delta_B_200_400",
+      "operation": "difference"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 400000,
+      "later": 800000,
+      "metric": "BETA_POS",
+      "name": "Delta_B_400_800",
+      "operation": "difference"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 200000,
+      "later": 400000,
+      "metric": "K",
+      "name": "Delta_K_200_400",
+      "operation": "difference"
+    },
+    {
+      "aggregation": "later cohort mean - earlier cohort mean",
+      "earlier": 400000,
+      "later": 800000,
+      "metric": "K",
+      "name": "Delta_K_400_800",
+      "operation": "difference"
+    }
+  ],
+  "draws": 20000,
+  "sampling_unit": "Crossed seed+base bootstrap; K uses the same sampled seeds and an independent natural-episode resample. Draws paired across all three checkpoints.",
+  "strata": "Primary: 8 fixed strata (coordinate 0..3 x sign -1/+1), 1024 bases per stratum; natural: 8192 episodes without stratification; 12 seeds.",
+  "percentile": "95% pointwise; numpy.quantile([0.025, 0.975], method=\"linear\")",
+  "pairing": "same sampled seed vector and the same eight primary-base resamples for every checkpoint, every sampled seed and both estimands; preserve both endpoints and all five rho conditions; recompute equal-stratum mean then equal-sampled-seed mean",
+  "summary_convention": "Differences and ratios of cohort means, not averages of seed ratios.",
+  "limitations": "Cached seed-statistic reconstruction and saved-replicate percentile reconstruction only. No raw per-base recomputation or recreation of resampling indices; no forward evaluation or training. These descriptive intervals do not replace original Phase 1 97.5% confirmatory intervals.",
+  "displayed": {
+    "N0_ABS@200000": "0.04894 [0.04485, 0.05299]",
+    "N0_ABS@400000": "0.04201 [0.03955, 0.04444]",
+    "N0_ABS@800000": "0.03812 [0.03441, 0.04176]",
+    "Delta_N_400_800": "-0.00389 [-0.00690, -0.00092]",
+    "N0_ABS_reduction_percent": "22.1%",
+    "N0_ABS_benchmark_multiple": "3.81"
+  }
+}

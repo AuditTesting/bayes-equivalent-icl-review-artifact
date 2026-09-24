@@ -1,0 +1,38 @@
+{
+  "draws": 2000,
+  "percentile": "numpy.quantile([0.025,0.975], method=linear)",
+  "no_new_resampling": true,
+  "reproduction_levels": [
+    1,
+    2,
+    3
+  ],
+  "forward_evaluation": false,
+  "training_reproduction": false,
+  "authority": "S22 common-four-cell bootstrap",
+  "conditions": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012
+  ],
+  "endpoint": 810000,
+  "sampling_unit": "12 paired seed lineages plus stratified paired bases; independently resampled natural episodes for K",
+  "strata": "8 equally weighted magnitude-panel strata; natural K episodes unstratified",
+  "point_source": "Frozen per-seed endpoint summaries. F_WITHIN is ratio of cohort E_WITHIN to E_PAIR, not mean seed ratios.",
+  "interval_source": "Exact saved per-draw statistics; resampling indices not supplied. No regeneration of individual bootstrap draws."
+}

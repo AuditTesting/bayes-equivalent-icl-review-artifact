@@ -1,0 +1,38 @@
+{
+  "draws": 2000,
+  "percentile": "numpy.quantile([0.025,0.975], method=linear)",
+  "no_new_resampling": true,
+  "reproduction_levels": [
+    1,
+    2,
+    3
+  ],
+  "forward_evaluation": false,
+  "training_reproduction": false,
+  "authority": "S23 transfer bootstrap",
+  "kappa": 1.0,
+  "seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012
+  ],
+  "panels": [
+    "Z",
+    "P"
+  ],
+  "bases_per_panel": 8192,
+  "sampling_unit": "12 paired seed lineages and paired bases",
+  "strata": "6 demonstration-position strata within each panel, empirical position-count weights; panels separate",
+  "point_source": "Original and T_COMP frozen per-example predictions for A/C/D.",
+  "interval_source": "Exact saved per-draw statistics, not regenerated from indices.",
+  "transform": "At selected demonstration position, (x_i,y_i) -> (-x_i,1-y_i). All other encoded values unchanged."
+}
